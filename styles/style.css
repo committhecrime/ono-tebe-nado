@@ -1,1 +1,34 @@
 /* место для вашего кода */
+.header{
+  padding: 92px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  gap: 32px;
+  list-style-type: circle;
+}
+
+.active {
+  list-style-type: none;
+}
+
+.header__logo {
+  width: 148px;
+  height: 105px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  line-height: 24.3px;
+}
+
+.link__underline {
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
