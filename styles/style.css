@@ -1,40 +1,151 @@
-/* место для вашего кода */
+/* Header */
 
-.header{
-  padding: 92px 50px;
+.header {
   display: flex;
+  padding: 92px 53px 92px 51px;
   justify-content: space-between;
   align-items: center;
 }
-.header__list {
+
+.header__links-list {
   display: flex;
-  gap: 32px;
+  gap: 33px;
+  justify-content: space-between;
   list-style-type: circle;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.active {
+.header__links-list-item_no-bullit {
   list-style-type: none;
 }
 
+.link__underline {
+  text-underline-offset: 4px;
+}
+
 .header__logo {
-  max-width: 136px;
+  width: 135px;
+  margin: 0 150px 0px 0;
 }
 
 .contacts {
   display: flex;
   flex-direction: column;
-  width: 240px;
-  line-height: 24.3px;
-  color: #000;
   font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
+/* Cover Section */
+
+.cover {
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 170px 50px 0 50px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+
+.overlay {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #FFF;
+  font-size: 100px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 105%;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.aligned-text {
+  display: block;
+
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: 30px;
+}
+
+.zero-spacing {
+  letter-spacing: 0px;
+}
+
+h1 > span.aligned-text.aligned-text_center.no-letter-spacing {
+  line-height: 110%;
+}
+
+h1 > span.aligned-text.aligned-text_right.letter-spacing-extended {
+  line-height: 95%;
+}
+
+.cover__description {
+  display: flex;
+  justify-content: space-between;
+  padding: 136px 0 50px 372px;
+}
+
+.cover__description-text {
+  padding-top: 13px;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
   font-family: Raleway;
   font-style: normal;
   font-weight: 400;
-  margin-left: 145px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 17px;
+
 }
 
-.link__underline {
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
+.bet-button {
+  width: 257px;
+  height: 52px;
+  background: transparent;
+  border: 1px solid #FFF;
+  color: #FFF;
+  text-align: center;
+  font-size: 22px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
+.cover__description-text_word {
+  padding-left: 4px;
+}
