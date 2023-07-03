@@ -44,6 +44,10 @@
   line-height: 24.3px;
 }
 
+.address {
+  font-style: normal;
+}
+
 /* Cover Section */
 
 .cover {
@@ -245,7 +249,7 @@ h1 > span.aligned-text.aligned-text_right.letter-spacing-extended {
 /*About Section*/
 
 .about {
-  padding: 183px 50px 180px 50px;
+  padding: 183px 50px 183px 50px;
   display: flex;
 }
 
@@ -270,11 +274,11 @@ h1 > span.aligned-text.aligned-text_right.letter-spacing-extended {
 }
 
 .about__column-right {
-  padding: 100px 0 100px 25px;
+  padding: 100px 0 0 25px;
 }
 
 .about__title {
-  padding-bottom: 101px;
+  padding-bottom: 100px;
   color: #000;
   font-size: 40px;
   font-family: Raleway;
@@ -293,5 +297,41 @@ h1 > span.aligned-text.aligned-text_right.letter-spacing-extended {
   line-height: normal;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 26px;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 90px;
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 4px;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+
+.footer__social-list {
+  display: flex;
+  list-style-type: none;
+  gap: 48px;
+  max-width: 240px;
 }
