@@ -1,5 +1,6 @@
 .main {
   margin: 0 auto;
+  max-width: 1440px;
 }
 
 /* Header */
@@ -8,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 92px 53px 92px 51px;
+  padding: 92px 50px 92px 51px;
 }
 
 
@@ -51,6 +52,7 @@
 
 .address {
   font-style: normal;
+  max-width: 240px;
 }
 
 /* Cover Section */
@@ -333,4 +335,8 @@ h1 > span.aligned-text.aligned-text_right.letter-spacing-extended {
   gap: 48px;
   max-width: 240px;
   list-style-type: none;
+}
+
+.footer__social-icon {
+  max-width: 48px;
 }
