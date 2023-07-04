@@ -9,9 +9,9 @@
   display: grid;
   grid-template-columns: 390px 285px 240px;
   justify-content: space-between;
-  padding: 92px 50px 92px 51px;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 92px 50px 92px 51px;
 }
 
 .header__links-list {
@@ -311,9 +311,9 @@
   display: grid;
   grid-template-columns: 240px 165px 240px;
   justify-content: space-between;
-  padding: 0 50px 90px;
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 50px 90px;
 }
 
 .footer__menu {
